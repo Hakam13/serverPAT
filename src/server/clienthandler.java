@@ -55,7 +55,7 @@ public class clienthandler implements Runnable  {
                             output.writeUTF("login");
                             login();
                             //skipped for some reason. Fix later
-                            admpriv.run();
+                            //admpriv.run();
                         }
                         catch(Exception e){
                             System.out.println(e.getMessage());
