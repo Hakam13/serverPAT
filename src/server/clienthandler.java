@@ -118,7 +118,7 @@ public class clienthandler implements Runnable  {
                     print.println(hasil);
                     
                 }
-                //admpriv.run();
+                admpriv.run();
             }                        
             else{
                 hasil = "gagal";                
